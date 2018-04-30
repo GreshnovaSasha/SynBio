@@ -55,8 +55,6 @@ Challenges of engeneering in biology
 * Cellular contex
 
 **Parts and compositors**
+
 Processes — our **parts** — change state of a system by converting molecules, creating new ones, destroying them, or transporting them. 
 Tha state of a system can be written down as a vector. The the inputs to the part are the state variables — concentrations of the species — and the outputs are the reaction rates. The number of compositors is equal to the number of state variables. 
-
-
-
