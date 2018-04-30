@@ -32,5 +32,6 @@ Application:
 tissue by design
 
 **Spatiotemporal behavior**
+
 The rate of addition of inducer is as important as its concentration: the response to a fast rate of increase is rapid and strong, whereas a slow rate of increase results in a delayed and lower amplitude pulse response.
 With a slow increase in concentration, cI levels will be able to increase to levels that can outcompete activation by AHL. In the case of a slow rise in AHL levels, the branch with cI is able to "catch up" to the other branch and repression dominates. This is an example of a modified race condition which is more favorable for repression.
