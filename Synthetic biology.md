@@ -97,14 +97,20 @@ Drawbacks of this model
 
 What are the things that we as engineers can play around with?
 
-Degradation
-* degradation tags for protein
-* insert sequence into mRNA that will lead to frormation of secondary structure
-Copy number of plasmid
-Transcription and translation rate
+* Degradation
+** degradation tags for protein
+** insert sequence into mRNA that will lead to frormation of secondary structure and/or codon choice in the mRNA
+** ribozymes
+* Copy number of plasmid
+* Transcription and translation rate (strength of promoter)
 
 ### Two-part model
 
-We can say that there is a single characteristic to a promoter: it's strength. 
+We can say that there is a single characteristic to a promoter: it's strength; to a translation: the strength of the ribosome binding site on the mRNA.
 
 ![two-part model of gene expression](https://github.com/GreshnovaSasha/SynBio/blob/master/two-part%20model%20of%20gene%20expression.png)
+
+Time-scale separation: mRNA comes to equilibrium much faster than protein. Now we can get an explisit solution. 
+![gene-expression model solution](https://github.com/GreshnovaSasha/SynBio/blob/master/gene%20expression%20model%20solution.png)
+
+If we want to change the dynamics of this system, we must manipulate the degradation rate of the protein, but doing so will affect the steady-state levels. Hence if we want to change the dynamics without affecting the steady-state, we must also change one of the other rate constants through engineering. 
