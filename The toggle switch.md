@@ -35,8 +35,26 @@ If two operators were one that won't work.
 Requirements 
 * sigmoid function
 
-> To investigate the conditions required for bistability, six variants of the toggle switch were constructed by inserting RBS sequences 
-> of differing strengths
+**Dynamics**
+
+![G-C toggle dynamics](https://github.com/GreshnovaSasha/SynBio/blob/master/G-C%20toggle%20Dynamics.png)
+
+Data extrapolation
+
+**Mathematical model**
+
+![mathmatical model](https://github.com/GreshnovaSasha/SynBio/blob/master/G-C%20toggle%20model.png)
+
+Hill-function
+The repressor-promoter binding constant is taken as one
+
+a1 and a2 are the normalized maximum synthesis rates, and gamma and beta are the cooperativity of the repressor-promoter binding.
+
+Biological noise
+
+![Noise](https://github.com/GreshnovaSasha/SynBio/blob/master/noise.png)
+
+n is a number of molucules
 
 ## The oscillator
 
