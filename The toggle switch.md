@@ -56,12 +56,21 @@ Biological noise
 
 n is a number of molucules
 
-## The oscillator
+IPTG induces expression from LacI-repressed promoters (by causing LacI to disengage its operator sites), and 42°C temperature induces expression from cI-repressed promoters (because it is heat labile).
 
-![Oscillator](https://github.com/GreshnovaSasha/SynBio/blob/master/Oscillator.png)
+Why we can see two subpopulations?
 
-Consist of three negative feedback loops
+![fluerescence](https://github.com/GreshnovaSasha/SynBio/blob/master/GFP%20fluorescence.png)
 
-The two genes no longer directly interact; having intermediary delay. 
+Because of noise and stochasticity in the number of proteins, DNA, and inducer in each cell  not all cells switch states at a given concentration of inducer. This explains why the entirety of the cell population does not switch at the same time/level of inducer, but there are no "in between" cells.
 
-Negative times negative times negative is negative
+**Sources of biological noise**
+
+* cell division
+* mutations
+* load on the cell
+
+The state switches within *40 hours.* Fixes?
+
+* reduce the amount of protein the cell will express by reducing copy number, using weaker promoters, and/or using weaker ribosome binding sites
+* make the otput selectable (ex. put an antibiotic resistance gene next to the GFP -> it can only produce GFP and antibiotic together)
