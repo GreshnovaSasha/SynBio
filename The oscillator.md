@@ -16,5 +16,6 @@ Negative times negative times negative is negative
 </script>
     </head>
   <body>
+    x_i(t) = C_i~e^{\lambda_i~t}
     </body>
  </html>
