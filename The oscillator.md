@@ -9,13 +9,9 @@ The two genes no longer directly interact; having intermediary delay.
 
 Negative times negative times negative is negative
 
-<html>
-  <head>
-    <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-    </head>
-  <body>
-    x_i(t) = C_i~e^{\lambda_i~t}
-    </body>
- </html>
+
+
+https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js
+[](https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js)
+x_i(t) = C_i~e^{\lambda_i~t}
+
