@@ -35,6 +35,6 @@ basal decay + repressed production + basal production
 
 **Phase plane**
 
-![repressilator_phase_plain](SynBio/oscillator/repressilator_phase_plane.png)
+![repressilator_phase_plain](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/repressilator_phase_plane.png)
 
-![repressilator_phase_plain_slide](SynBio/oscillator/repressilator_phase_plain_slide.png)
+![repressilator_phase_plain_slide](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/repressilator_phase_plain_slide.png)
