@@ -38,3 +38,15 @@ basal decay + repressed production + basal production
 ![repressilator_phase_plain](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/repressilator_phase_plane.png)
 
 ![repressilator_phase_plain_slide](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/repressilator_phase_plain_slide.png)
+
+Designs should have very large regions where they behaive
+
+### Relaxation oscillator
+
+![Relaxation_oscillator](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/relaxation_oscillator_scheme.png)
+
+![Relaxation_oscillator_slide](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/relaxation_oscillator_slide.png)
+
+Saddle-node bifurcation
+
+![Relaxation_oscillator_vector_field](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/relaxation_oscillator_vector_field.png)
