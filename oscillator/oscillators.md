@@ -30,9 +30,6 @@ Negative times negative times negative is negative
 
 basal decay + repressed production + basal production
 
-**Requirements for oscillator**
-
-
 **Phase plane**
 
 ![repressilator_phase_plain](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/repressilator_phase_plane.png)
@@ -50,3 +47,15 @@ Designs should have very large regions where they behaive
 Saddle-node bifurcation
 
 ![Relaxation_oscillator_vector_field](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/relaxation_oscillator_vector_field.png)
+
+### [A fast, robust, and tunable synthetic gene oscillator](http://sci-hub.tw/10.1038/nature07389)
+
+![Hasty_2008_oscillator_scheme](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/Hasty_2008_oscillator.png)
+
+Two inducers in the system
+
+[![Hasty_2008_oscillator_video](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/Hasty_2008_oscillator_video.png)](https://youtu.be/4xicQrWkiKw)
+
+
+
+
