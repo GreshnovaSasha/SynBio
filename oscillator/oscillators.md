@@ -83,3 +83,27 @@ There is some level of an effective saturation, in which all  complexes are acti
 **Effect of temperature**
 
 *c, d* Tempreture affects the doubling time (the cell divides faster at higher temperatures) and the doubling time will directly effect the dilution -> lower overall expression of proteins and a smaller dynamic range of expression (shorter oscillation periods)
+
+**Model**
+
+simple model -> expand model
+
+![Hasty_2008_model](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/Hasty_2008_model.png)
+
+The critical improvement to the model was the inclusion of fine-grained details in the protein production process, which better captured the delay in initiation of gene expression to final protein completion. 
+
+![Hasty_2008_equations](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/Hasty_2008_equations.png)
+
+**The takeaway message**: abstraction is very useful in modeling, but we need to be careful in what exactly we abstract away. Simplification is great, but your models should still capture the important behavior of the system. And what is "important" depends on your design goals and your system.
+
+**An oscillator with a short negative feedback loop**
+
+![Hasty_2008_simple_model](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/Hasty_2008_simple_model.png)
+
+a damping ratio
+
+Negative feedback loop is a mechanism that allows to reach steday-state faster than constitutive promoter.
+
+*But* in this model we can see oscillations
+
+Essentially, the delay in feedback causes the system to overshoot its set point (steady-state), and then again undershoot once the feedback kicks in and drives levels down. This continues periodically with a gradual decrease in over/undershoot as time progresses. Thus, the oscillator is ultimately unstable, and the level of *LacI* will eventually reach a steady-state.
