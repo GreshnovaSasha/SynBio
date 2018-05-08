@@ -4,7 +4,7 @@
 
 |Year |Scientist   |Model                               |
 |-----|------------|------------------------------------|
-|2000 | Leiber     |Repressilator                       |
+|2000 | Leiber     | Repressilator                      |
 |2003 | Nifna      | Relaxation (activator/inhibitor)   |
 |2005 | Liao       | Metabollator                       |
 |2009 | Hasty      | Tunable relaxation oscillator      |
@@ -107,3 +107,10 @@ Negative feedback loop is a mechanism that allows to reach steday-state faster t
 *But* in this model we can see oscillations
 
 Essentially, the delay in feedback causes the system to overshoot its set point (steady-state), and then again undershoot once the feedback kicks in and drives levels down. This continues periodically with a gradual decrease in over/undershoot as time progresses. Thus, the oscillator is ultimately unstable, and the level of *LacI* will eventually reach a steady-state.
+
+**What else can be improved?**
+* translation regulation
+
+### The Tigges oscillator
+
+A tunable mammalian oscillator
