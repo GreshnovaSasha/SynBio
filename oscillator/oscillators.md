@@ -54,8 +54,32 @@ Saddle-node bifurcation
 
 Two inducers in the system
 
+Three similar promoters (Arabinose, IPTG)
+
 [![Hasty_2008_oscillator_video](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/Hasty_2008_oscillator_video.png)](https://youtu.be/4xicQrWkiKw)
 
+Cells were grown in microfluidic chambers
 
+**Effect of IPTG on oscillations**
 
+![Hasty_2008_dynamics](https://github.com/GreshnovaSasha/SynBio/blob/master/oscillator/Hasty_2008_dynamics.png)
 
+*a* non-monotonic effect of IPTG on oscillation period
+
+**no IPTG** -> high level of repression by LacI -> low expression 
+
+lower level of IPTG -> lower level of repression by LacI -> higher expression
+
+**hight IPTG** -> no negative feedback -> disappearance of oscillatons
+
+There is some optimal level of IPTG: protein expression can take on a wider range of values when the feedback is not too strong or weak
+
+**Effect of Arabinose on oscillations**
+
+*b* increase level of arabinose -> increase oscillatory period
+
+There is some level of an effective saturation, in which all  complexes are active on all promoters -> Arabinose can not be able to becaome dominant over lacI
+
+**Effect of temperature**
+
+*c, d* Tempreture affects the doubling time (the cell divides faster at higher temperatures) and the doubling time will directly effect the dilution -> lower overall expression of proteins and a smaller dynamic range of expression (shorter oscillation periods)
