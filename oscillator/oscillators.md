@@ -114,3 +114,22 @@ Essentially, the delay in feedback causes the system to overshoot its set point 
 ### The Tigges oscillator
 
 A tunable mammalian oscillator
+
+### The Danino oscillator
+
+Specific properties: 
+* the quorum-sensing module (encodes positive feedback)
+* density dependence of the circuit (intial delay - the calls are not dence enough)
+* protein-small molecule negative feedback; protein actively degrade a small molecule -> changing the dynamics
+
+Tests it in a microfluidic trapping chamber:
+* flow control the AHL concentration (faster flow -> greater amplitude; but upper limit of fluorescence is constant)
+* flow maintain exponential rate of cell growth
+
+Spatiotemporal oscillations: cells in the midle start oscillation first (higher level of AHL - more nearby cells)
+
+### The Prindle oscillator
+H2O2 synchronizes cells across the entire circuit
+
+### The Chen oscillator
+Systems oscillate only togeter
