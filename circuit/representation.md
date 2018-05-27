@@ -6,3 +6,8 @@
 
 ## Cello
 Verilog
+
+# Logic simplification
+* boolean cube
+* karnaugh map
+
